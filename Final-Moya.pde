@@ -191,11 +191,11 @@ void message() {
   text(title, 20, 638);
   text(author, 20, 620);
 
-  text(instruction1, width/2, 50);
-  text(instruction2, width/2, 50 + space);
-  text(instruction3, width/2, 50 + (space*2));
-  text(instruction4, width/2, 50 + (space*3));
-  text(instruction5, width/2, 50 + (space*4));
+  text(instruction1, width/15, 80);
+  text(instruction2, width/15, 80 + space);
+  text(instruction3, width/15, 80 + (space*2));
+  text(instruction4, width/15, 80 + (space*3));
+  text(instruction5, width/15, 80 + (space*4));
   
   text("Tallest", buttonX[0]-20, buttonY+5);
   text("Widest", buttonX[1]-20, buttonY+5);
